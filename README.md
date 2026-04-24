@@ -59,6 +59,9 @@ spring.jpa.hibernate.ddl-auto=update
 📂 Estrutura de Pacotes
 
 principal: Gerenciamento do menu e fluxo da aplicação.
+
 model: Entidades mapeadas para o banco de dados e registros (Records) para desserialização.
+
 repository: Interfaces que utilizam Spring Data JPA para consultas (Derived Queries e JPQL).
+
 service: Serviços de consumo de API (HttpClient) e conversão de dados.
