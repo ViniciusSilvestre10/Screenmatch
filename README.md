@@ -42,15 +42,19 @@ A aplicação oferece um menu interativo via console com as seguintes operaçõe
 Para segurança, a chave da API do OMDB deve ser configurada como uma variável de ambiente no seu sistema (Ubuntu/Linux):
 
 ```bash
-export OMDB_API_KEY="sua_chave_aqui"
+export OMDB_API_KEY="sua_chave_aqui" 
+```
 
 3. Configuração do Banco de Dados
 No arquivo src/main/resources/application.properties, configure suas credenciais:
 
+
+```Properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/nome_do_seu_banco
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
+```
 
 📂 Estrutura de Pacotes
 
